@@ -53,23 +53,74 @@ a{
     border-radius: 50%;
     margin-right: .65em;
 }
-/* .stories-flex{
-    display: flex;
-    
+
+.insta-stories{
+    border: 1px solid gainsboro;
+    float: right;
+    margin-right: 2em;
+    width: 50%;
+    border-radius: 8px;
+    background: white;
+    margin-top: 1.5em;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+}
+.stories-img{
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg,orange, purple, rgb(246, 2, 165)) border-box;
+border: 3px solid transparent;
+border-radius: 50px;
 }
 
-.name-flex{
-    display: flex;
-    flex-direction: column;
+.stories-text{
+    font-size: 12px;
 }
-.stories-flex, .stories-link{
-    margin-left: 8em;
-} */
+
 .friend-suggestion-flex{
   display: flex;
   flex-direction: row;
 
 }
+ .middle-container{
+    background-color: white;
+    margin-top: 1.5em;
+    width: 50%;
+    float: right;
+    margin-right: 2em;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+ }
+ .sub-middle-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+ }
+ .inner-container{
+    display: flex;
+   
+ }
+ .dotted-line{
+    justify-content: center;
+    margin-top: 1em;
+ }
+
+ .username{
+    font-size: 14px;
+    font-weight: 500;
+    order: 1;
+ }
+ .friends-profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: .5em;
+    object-fit: cover;
+    order: -1;
+ }
 .flx{
     display: flex;
     flex-direction: row;
@@ -91,7 +142,7 @@ a{
     display: flex;
     flex-direction: column;
     margin-top: 4em;
-    margin-right: 10em;
+    margin-right: 20%;
     
 }
 .profile-image-small{
