@@ -1,0 +1,77 @@
+html{
+
+}
+body{
+    margin: 0;
+}
+.main-wrapper{
+    height: 100vh;
+    display: flex;
+
+}
+.navbar{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid rgb(210, 208, 208);
+    /* border: 1px solid black; */
+}
+.main-area{
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+}
+
+.stories-wrapper{
+    width: 30%;
+    border: 1px solid yellowgreen;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.flex-space{
+    display: flex;
+    margin-top: 2.5em;
+}
+.nav-link{
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0 1em;
+    color: black;
+}
+#bold-text{
+    font-weight: 700;
+   
+}
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: .65em;
+}
+.stories-flex{
+    display: flex;
+
+}
+
+.name-flex{
+    display: flex;
+    flex-direction: column;
+}
+.stories-flex, .stories-link{
+    margin-left: 8em;
+}
+.smaller-image{
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+ 
+}
+.icons{
+    font-size: 1.4rem;
+}
+.logo-set{
+    margin: 2em 1em;
+}
